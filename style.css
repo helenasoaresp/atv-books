@@ -78,7 +78,7 @@ header nav ul li {
     margin: 0 2vw 0 2vw;
 
 }
-header nav ul li a#book {
+header nav ul li a.book {
     color: #232323;
 }
 header nav a strong {
@@ -89,34 +89,53 @@ header nav a strong {
 /*=====================
     Formatação do corpo
 =======================*/
-section#banner {
+section.banner {
     margin: 5vw 0 5vw 0;
 }
 
-section#banner div#principal {
+section.banner div.principal {
     display: flex;
     justify-content: space-between;
 }
 
-section#banner div#principal div {
+section.point h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 0 0 5vw 0;
+}
+
+section.banner div.principal div {
     margin: 0 3vw 0 3vw;
 }
 
-section#banner div h1 {
+section.point div{
+    display: flex;
+    color: #232323;
+    font-size: 1.4rem;
+}
+
+section.point div p {
+    padding: 4vw 3vw 0 0;
+    margin: 0 5vw 0 5vw;
+}
+
+
+section.banner div h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 4vw;
     font-weight: bold;
 
 }
-section#banner div h1 span {
+section.banner div h1 span {
     color: #47C183;
 }
-section#banner div#principal div p {
+section.banner div.principal div p {
     font-size: 22px;
     margin: 3vw 0 3vw 0;
 }
 
-section#banner div#principal button {
+section.banner div.principal button {
     background-color: #232323;
     color: #FFFFFF;
     padding: 1vw 2vw 1vw 2vw;
@@ -125,7 +144,12 @@ section#banner div#principal button {
     font-weight: bold;
     margin: 1vw 2vw 0 0;
 }
-section#banner div#
+
+section.banner div.principal div a {
+    color: black;
+    text-decoration: underline;
+}
+
 
 
 /*=====================
